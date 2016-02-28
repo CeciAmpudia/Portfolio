@@ -1,0 +1,22 @@
+body {
+	text-align: center;
+}
+hr {
+	color: #F15F41;
+	border: 1px solid #F15F41;
+	width: 3%;
+}
+/*---------- SECCIO SERVICIOS ----------*/
+#servicios span {
+	color: #F15F41;
+}
+/*---------- SECCION TRABAJOS ---------*/
+#trabajos {
+	background: #232123;
+}
+.white {
+	background: white;
+	border-radius: 20px;
+	border: white;
+	color: black;
+}
