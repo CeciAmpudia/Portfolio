@@ -12,6 +12,9 @@ h2 {
 .text-gray {
 	color: #CCCACC;
 }
+.text-white {
+	color: white;
+}
 /*---------- SECCIO SERVICIOS ----------*/
 #servicios {
 	padding: 5%;
@@ -33,4 +36,40 @@ h2 {
 	border-radius: 20px;
 	border: white;
 	color: black;
+}
+.uno {
+	background-image: url("../img/portfolio/1.jpg");
+	background-size: cover;
+    height: 240px;
+}
+.dos {
+	background-image: url("../img/portfolio/2.jpg");
+	background-size: cover;
+    height: 240px;
+}
+.tres {
+	background-image: url("../img/portfolio/3.jpg");
+	background-size: cover;
+    height: 240px;
+}
+.cuatro {
+	background-image: url("../img/portfolio/4.jpg");
+	background-size: cover;
+    height: 240px;
+}
+.cinco {
+	background-image: url("../img/portfolio/5.jpg");
+	background-size: cover;
+    height: 240px;
+}
+.seis {
+	background-image: url("../img/portfolio/6.jpg");
+	background-size: cover;
+    height: 240px;
+}
+.github {
+	padding: 3%;
+}
+.txt {
+	font-size: 20px;
 }
