@@ -1,6 +1,55 @@
 body {
 	text-align: center;
 }
+/*---------- Header Zazil ----------*/
+header {
+  background-image: url('../img/header.jpg');
+  position: relative;
+  width: 100%; /* Asi el header abarca el 100% en cualquier tamano de pantalla*/
+  background-size: cover;
+  background-position: center;  
+  text-align: center;
+  color: white;
+}
+.navbar {
+  background-color: transparent;
+
+}
+
+a {
+	color: white;
+	opacity: 0.7;
+}
+.saludo {
+  position: relative;
+  text-align: center;
+  padding: 100px 15px 100px;
+  width: 100%;
+}
+header .hrorg {
+  border-color: #f15f41;
+  border-width: 3px;
+  max-width: 50px;
+}
+.hrwht {
+  border-color: white;
+  border-width: 3px;
+  max-width: 50px;
+}
+/*---------- Seccion Sobre mi Zazil ----------*/
+.bg-org {
+  background-color: #f15f41;
+  color: white;
+}
+.btn {
+  border: none;
+  border-radius: 200px;
+  font-weight: 500;
+  padding: 15px 30px;
+}
+p  {
+	opacity: 0.7;
+}
 hr {
 	color: #F15F41;
 	border: 1px solid #F15F41;
