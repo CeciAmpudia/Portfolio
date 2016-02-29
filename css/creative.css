@@ -15,6 +15,9 @@ h2 {
 .text-white {
 	color: white;
 }
+.text-color {
+	color: #F15F41;
+}
 /*---------- SECCIO SERVICIOS ----------*/
 #servicios {
 	padding: 5%;
@@ -72,4 +75,20 @@ h2 {
 }
 .txt {
 	font-size: 20px;
+}
+/*---------- SECCION CONTACTAME ----------*/
+#contactame {
+	padding: 4%;
+}
+#contactame p {
+	margin-left: 25%;
+	margin-right: 25%;
+	margin-bottom: 2%;
+}
+.contc {
+	margin-left: 25%;
+	margin-right: 25%;
+}
+#contactame span {
+	font-size: 40px;
 }
