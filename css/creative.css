@@ -13,9 +13,7 @@ header {
 }
 .navbar {
   background-color: transparent;
-
 }
-
 a {
 	color: white;
 	opacity: 0.7;
@@ -50,22 +48,34 @@ header .hrorg {
 p  {
 	opacity: 0.7;
 }
-hr {
-	color: #F15F41;
-	border: 1px solid #F15F41;
-	width: 3%;
+menu-bar {
+	display: none;
 }
-/*---------- SECCIO SERVICIOS ----------*/
-#servicios span {
-	color: #F15F41;
-}
-/*---------- SECCION TRABAJOS ---------*/
-#trabajos {
-	background: #232123;
-}
-.white {
-	background: white;
-	border-radius: 20px;
-	border: white;
-	color: black;
+/*Para contraer el nav y hacer un menu responsive*/
+@media screen and (max-width:600px) {
+  header nav {
+    width: 80%;
+    height: 100%;
+    position: fixed;
+    margin: 0;
+  }
+  header nav ul li {
+    display: block;
+    float: none;
+  }
+  .menu-bar {
+    display: block;
+    width: 100%;
+  }
+  .menu-bar .bt-menu {
+    display: block;
+    padding: 30px;
+  }
+  .menu-bar span {
+    float: right;
+    font-size: 30px;
+  }
+  a {
+    opacity: 1;
+  }
 }
